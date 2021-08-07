@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>DOCTOR Prescription</title>
+	{% load static %}
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<link href="{% static 'home/assets/main/css/bootstrap.min.css' %}" rel="stylesheet">
+	<link href="{% static 'home/assets/main/css/style.css' %}" rel="stylesheet">
+	<link href="{% static 'home/assets/plugins/Toastr/css/toastr.min.css' %}" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div id="preloader" class="Fixed">
+		<div data-loader="circle-side"></div>
+	</div>
+
+
+	<div id="page">
+	
+	<main>
+		<div class="hero_home version_1">
+			<div class="content">
+				<h3>Get a Prescription!</h3>
+
+				<form method="get" id="searchForm">
+					{% csrf_token %}
+					<div id="custom-search-input">
+						<div class="input-group">
+							<input type="text" name="search" id="search" class="search-query" placeholder="Ex. hczza02258" required>
+							<input type="submit" class="btn_search" value="Submit">
+						</div>
+						<ul>
+							<li>
+								<label><a href="{% url 'accounts:login' %}">Doctor Login</a></label>
+							</li>
+							<li>
+								<label><a href="{% url 'accounts:register' %}">Doctor Registration</a></label>
+							</li>
+						</ul>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="s_result" class="container margin_120_95">
+
+		</div>
+		
+	</main>
+	</div>
+
+	<div id="toTop"></div>
+	<script src="{% static 'home/assets/main/js/jquery-3.5.1.min.js' %}"></script>
+	<script src="{% static 'home/assets/main/js/common_scripts.min.js' %}"></script>
+	<script src="{% static 'home/assets/main/js/functions.js' %}"></script>
+	<script src="{% static 'home/assets/plugins/Toastr/js/toastr.min.js' %}" type="text/javascript"></script>
+	<script src="{% static 'home/assets/main/js/main.js' %}"></script>
+	<script type="text/javascript">
+        {% if msg_error %}
+            $(document).ready(function () {
+                toastr.error("{{ error_msg }}");
+            });
+        {% endif %}
+        {% if msg_success %}
+            $(document).ready(function () {
+                toastr.success("{{ msg_success }}");
+            });
+        {% endif %}
+    </script>
+</body>
+
+</html>
