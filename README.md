@@ -36,37 +36,37 @@
 
 #### Landing Page
 <div class="row  justify-content-center">
-  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/main/images/landing.PNG" width="50%" height="50%">
+  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/master/images/landing.PNG" width="50%" height="50%">
 </div>
 <br>
 
 #### Prescription Page
 <div class="row  justify-content-center">
-  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/main/images/prescription.PNG" width="50%" height="50%">
+  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/master/images/prescription.PNG" width="50%" height="50%">
 </div>
 <br>
 
 #### Doctor's Login Page
 <div class="row  justify-content-center">
-  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/main/images/doctor-login.PNG" width="50%" height="50%">
+  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/master/images/doctor-login.PNG" width="50%" height="50%">
 </div>
 <br>
 
 #### Doctor's Registeration Page
 <div class="row  justify-content-center">
-  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/main/images/doctor-register.PNG" width="50%" height="50%">
+  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/master/images/doctor-register.PNG" width="50%" height="50%">
 </div>
 <br>
 
 #### Prescription History Page
 <div class="row  justify-content-center">
-  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/main/images/prescription-history.PNG" width="50%" height="50%">
+  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/master/images/prescription-history.PNG" width="50%" height="50%">
 </div>
 <br>
 
 #### Add Prescription
 <div class="row  justify-content-center">
-  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/main/images/addrx.PNG" width="50%" height="50%">
+  <img class="img-fluid text-center" src = "https://github.com/macjade/pms/blob/master/images/addrx.PNG" width="50%" height="50%">
 </div>
 <br>
 
